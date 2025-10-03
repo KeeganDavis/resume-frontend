@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keegan Davis Cloud Project</title>
+
+  <link rel="stylesheet" href="./resume.css">
+</head>
+<body>
+  <div class="stuff">
+  <header data-testid="vis-count" style="text-align: right;">Visitor Count: </header>
+  <h1 style="text-align: center; font-size:18px;">Keegan Davis</h1>
+  <p style="text-align: center;">Georgetown, TX | 512-750-9553 | <a href="mailto:keegan.davis96@gmail.com">keegan.davis96@gmail.com</a> | <a href="https://www.linkedin.com/in/keeganrdavis">LinkedIn</a> | <a href="https://github.com/KeeganDavis">GitHub</a></p>
+  <p class="head">DevOps / Cloud Engineer</p>
+  <p>Self-taught GCP‑focused engineer with 3+ years of coding experience transitioning from data/ML to DevOps. Builds reproducible infra with Terraform, ships backends/frontends via CI/CD, and automates ops with Python/Bash on Linux. GCP Associate Cloud Engineer certified. Known for fast learning, clean code, and clear comms.
+  <p class="head">Skills</p>
+  <ul>
+    <li><span style="font-weight: bold;">Cloud: </span> GCP (Cloud Run, Cloud Build, Cloud Storage, Load Balancing, VPC, API Gateway, Firestore/Datastore)</li>
+    <li><span style="font-weight: bold;">IaC: </span>Terraform (modules, remote state, imports, lifecycle), Ansible</li>
+    <li><span style="font-weight: bold;">CI/CD: </span>GitHub Actions, Cloud Build, Jenkins, artifact/versioning, approvals</li>
+    <li><span style="font-weight: bold;">Containers & Runtime: </span>Docker, Flask, WSGI, CORS, REST</li>
+    <li><span style="font-weight: bold;">Languages & Tools: </span>Python, Bash, SQL, gcloud CLI, Git/GitHub, Linux administration, Vim</li>
+    <li><span style="font-weight: bold;">Data & Visualization: </span>BigQuery, PostgreSQL, Snowflake, pandas/NumPy, Tableau, Power BI, Looker</li>
+    <li><span style="font-weight: bold;">Security & Networking: </span>IAM least‑privilege, service accounts, TLS/SSL certs, DNS, CDN, egress/ingress controls</li>
+  </ul>
+  <p class="head">Selected Projects</p>
+  <p><span style="font-weight: bold;">Static Website + Serverless API on GCP (IaC‑managed) - </span>Terraform | GCS (static) | HTTPS LB + Cloud CDN + managed SSL | Cloud DNS | Cloud Run (Flask) | API Gateway | Firestore/Datastore | Docker | GitHub Actions | CORS</p>
+  <ul>
+    <li>Provisioned domain -> Cloud DNS -> HTTPS LB/CDN -> GCS with Google‑managed SSL/TLS via Terraform.</li>
+    <li>Built Cloud Run Flask API behind API Gateway powering a page visit counter; frontend JS calls gateway; backend reads/writes in Firestore/Datastore.</li>
+    <li>Implemented CORS between static site and API; CI/CD runs tests, builds images, and deploys infra/app on push.</li>
+  </ul>
+  <p><span style="font-weight: bold;">Analytics Platform (selected, prior focus) - </span> Python | SQL | Snowflake/BigQuery | Plotly/Tableau</p>
+  <ul>
+    <li>Examples: <a href="https://github.com/KeeganDavis/data-projects/tree/main/yelp-reviews">Yelp reviews analytics</a> (7M+ rows); <a href="https://keegandavis.github.io/nfl-data-analysis/">NFL ETL & dashboard</a> (Data scraping, ETL, data transformation).</li>
+  </ul>
+  <p class="head">Education & Certifications</p>
+  <p><span style="font-weight: bold;">B.S., Biology - </span> Texas A&M University (3.73 GPA; finished in 2.5 years)</p>
+  <p><span style="font-weight: bold;">Certificate, Data Analytics - </span> UT Austin Bootcamp (250+ hrs SQL/Python)</p>
+  <p><span style="font-weight: bold;">Google Cloud Associate Cloud Engineer (2025)</span></p>
+  <p><span style="font-weight: bold;">LearnSQL.com SQL Competency 99% (May 2025)</span></p>
+  <p class="head">Experience</p>
+<p>
+  <span style="font-weight: bold;">Programmer / AI Trainer - </span> DataAnnotation | Remote | Aug 2023 - present
+</p>
+  <ul>
+    <li>Authored and reviewed SQL, Python, visualization, cloud engineering prompts for an LLM, emphasizing correctness, clarity, and reproducibility.	 </li>
+    <li>Executed code in Jupyter and SQL consoles; validated logic/edge cases; documented defects and improvement steps used by engineers to tune models and prompt chains. </li>
+  </ul>
+<p>
+  <span style="font-weight: bold;">Orthodontic Assistant - </span> Puntillo & Crane Orthodontics | Aug 2021-Apr 2022 - HIPAA‑compliant EHR, patient comms.
+</p>
+<p>
+  <span style="font-weight: bold;">Personal Shopper/Cashier - </span> H‑E‑B | 2014-2021, 2022-2023 - high‑throughput ops, inventory accuracy. 
+</p>
+</div>
+<script src="./resume.js"></script>
+</body>
+</html>
