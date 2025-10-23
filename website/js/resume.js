@@ -1,5 +1,6 @@
 const cfg = (window.CONFIG ?? {});
 const API_URL = cfg.API_URL ?? "http://localhost:8080";
+console.log(API_URL)
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch(API_URL)

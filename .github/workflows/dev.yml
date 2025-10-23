@@ -21,7 +21,7 @@ jobs:
           API_URL: ${{ vars.API_GW_HOST }}
         run: |
           mkdir -p website/js
-          cat > website/js/config.js <<'EOF'
+          cat > website/js/config.js <<EOF
           window.CONFIG = {
             API_URL: "${API_URL}"
           };
