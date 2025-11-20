@@ -13,24 +13,24 @@
   <h1 style="text-align: center; font-size:18px;">Keegan Davis</h1>
   <p style="text-align: center;">Georgetown, TX | 512-750-9553 | <a href="mailto:keegan.davis96@gmail.com">keegan.davis96@gmail.com</a> | <a href="https://www.linkedin.com/in/keeganrdavis">LinkedIn</a> | <a href="https://github.com/KeeganDavis">GitHub</a></p>
   <p class="head">DevOps / Cloud Engineer</p>
-  <p>Self-taught GCP‑focused engineer with 3+ years of coding experience transitioning from data/ML to DevOps. Builds reproducible infra with Terraform, ships backends/frontends via CI/CD, and automates ops with Python/Bash on Linux. GCP Associate Cloud Engineer certified. Known for fast learning, clean code, and clear comms.
+  <p>Self-taught cloud engineer pivoting from data/ML to DevOps with 3+ years of coding. Designs reproducible infrastructure with Terraform, automates ops with Python and Bash on Linux, and ships backends/frontends via CI/CD. GCP ACE certified. Strong with Docker, networking, Nginx, IAM, observability, and security. Clear communicator and fast learner.</p>
   <p class="head">Skills</p>
   <ul>
-    <li><span style="font-weight: bold;">Cloud: </span> GCP (Cloud Run, Cloud Build, Cloud Storage, Load Balancing, VPC, API Gateway, Firestore/Datastore)</li>
-    <li><span style="font-weight: bold;">IaC: </span>Terraform (modules, remote state, imports, lifecycle), Ansible</li>
-    <li><span style="font-weight: bold;">CI/CD: </span>GitHub Actions, Cloud Build, Jenkins, artifact/versioning, approvals</li>
-    <li><span style="font-weight: bold;">Containers & Runtime: </span>Docker, Flask, WSGI, CORS, REST</li>
-    <li><span style="font-weight: bold;">Languages & Tools: </span>Python, Bash, SQL, gcloud CLI, Git/GitHub, Linux administration, Vim</li>
-    <li><span style="font-weight: bold;">Data & Visualization: </span>BigQuery, PostgreSQL, Snowflake, pandas/NumPy, Tableau, Power BI, Looker</li>
-    <li><span style="font-weight: bold;">Security & Networking: </span>IAM least‑privilege, service accounts, TLS/SSL certs, DNS, CDN, egress/ingress controls</li>
+    <li><span style="font-weight: bold;">Cloud and Platforms: </span> GCP, AWS (exposure), Linux, Bash</li>
+    <li><span style="font-weight: bold;">Containers and Orchestration: </span>Docker, Kubernetes, Helm, Argo CD, Consul</li>
+    <li><span style="font-weight: bold;">IaC and Config: </span>Terraform (modules, remote state, imports, lifecycle), Ansible, policy as code basics</li>
+    <li><span style="font-weight: bold;">CI/CD: </span>GitHub Actions, Jenkins, artifact management (Artifactory, Artifact Registry), automated tests</li>
+    <li><span style="font-weight: bold;">Networking and Web: </span>Nginx, DNS, HTTP, HTTPS and TLS, CORS, load balancers, CDN, VPC basics, SSH</li>
+    <li><span style="font-weight: bold;">Observability: </span>Prometheus, Grafana, Datadog, Loki, structured logging, alerting and SLOs</li>
+    <li><span style="font-weight: bold;">Security: </span>HashiCorp Vault, cloud secret managers, IAM least privilege, TLS certificates</li>
+    <li><span style="font-weight: bold;">Data and Backend: </span>Python, REST APIs, Firestore, PostgreSQL, SQL, Snowflake, Tableau, Looker, Plotly</li>
+    <li><span style="font-weight: bold;">Workflow: </span>Jira Scrum, Git, GitHub, code reviews, documentation</li>
   </ul>
   <p class="head">Selected Projects</p>
-  <p><span style="font-weight: bold;">Static Website + Serverless API on GCP (IaC‑managed) - </span>Terraform | GCS (static) | HTTPS LB + Cloud CDN + managed SSL | Cloud DNS | Cloud Run (Flask) | API Gateway | Firestore/Datastore | Docker | GitHub Actions | CORS</p>
-  <ul>
-    <li>Provisioned domain -> Cloud DNS -> HTTPS LB/CDN -> GCS with Google‑managed SSL/TLS via Terraform.</li>
-    <li>Built Cloud Run Flask API behind API Gateway powering a page visit counter; frontend JS calls gateway; backend reads/writes in Firestore/Datastore.</li>
-    <li>Implemented CORS between static site and API; CI/CD runs tests, builds images, and deploys infra/app on push.</li>
-  </ul>
+  <p><span style="font-weight: bold;">Cloud-native portfolio site and API (GCP):</p>
+  <p>Live: <a href="https://keeganrdavis.com/">Static Website</a> | <a href="https://github.com/KeeganDavis/resume-frontend">Frontend Repo</a> | <a href="https://github.com/KeeganDavis/resume-backend">Backend Repo</a></p>
+  <p style="margin-top: 5px;">Static site on GCS behind HTTPS LB + CDN. Flask API on Cloud Run behind API Gateway with Firestore. Terraform modules for DNS, LB, CDN, Run, Gateway, IAM, secrets. CI/CD with GitHub Actions (test, build, plan, apply, promote). Monitoring and alerts in Cloud Monitoring and Logging.</p>
+  <p style="margin-top: 5px;">Prior iterations used Kubernetes, Helm, Argo CD, Nginx ingress, Ansible, Jenkins, Vault, Prometheus, Grafana, Datadog, Loki, and Consul. Chose managed GCP services for cost and operational fit while retaining IaC, CI/CD, and security controls.</p>
   <p><span style="font-weight: bold;">Analytics Platform (selected, prior focus) - </span> Python | SQL | Snowflake/BigQuery | Plotly/Tableau</p>
   <ul>
     <li>Examples: <a href="https://github.com/KeeganDavis/data-projects/tree/main/yelp-reviews">Yelp reviews analytics</a> (7M+ rows); <a href="https://keegandavis.github.io/nfl-data-analysis/">NFL ETL & dashboard</a> (Data scraping, ETL, data transformation).</li>
